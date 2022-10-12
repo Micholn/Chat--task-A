@@ -1,0 +1,30 @@
+.chatbot-chat-input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatbot-chat-input-container input{
+    width: 80%;
+    height: 35px;
+    background: white;
+    color: darkgreen;
+    margin: auto;
+    border-radius: 25px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.chatbot-chat-input-container button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    background-image: url('../../../assets/images/flecha.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
